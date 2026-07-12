@@ -9,3 +9,13 @@ __pycache__/
 # Specifically targeting the identified leak paths
 VALEX_File_Crawl.json
 m365.cloud.microsoft*
+# Prevent ingestion of HAR files
+*.har
+
+# Prevent ingestion of browser artifacts
+*.json.har
+*.har.gz
+
+# Prevent ingestion of user-profile files
+/Users/
+/C:/Users/enriq/
