@@ -1,0 +1,1974 @@
+23:56:28.014 workloadPublicData?workload=M365CopilotSSR&auth=1:1  Failed to load resource: the server responded with a status of 400 ()
+23:56:28.018 consumerInstallInfo?workload=M365CopilotSSR&auth=1:1  Failed to load resource: the server responded with a status of 400 ()
+23:56:28.244 $value:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+23:56:28.245 m365AppDefinition/?workload=M365CopilotSSR&auth=1:1  Failed to load resource: the server responded with a status of 404 ()
+23:56:28.303 $value:1  Failed to load resource: the server responded with a status of 404 (Not Found)
+23:56:28.369 substrate.office.com/recommended/api/v2.0/edgeworth/recent?top=15&rs=en-us&excludeApps=WebLink:1  Failed to load resource: the server responded with a status of 401 ()
+23:56:30.279  {"iKey":"86e373bba78849b9a171f1691f60be36-8b939b94-65a5-48dc-bb15-7db2cdb0650f-7210","name":"Office.AIHub.Web.OfficeStart.Startup.Event.AiHubLoggerInitialized","data":{"Event.Name":"Office.AIHub.Web.OfficeStart.Startup.Event.AiHubLoggerInitialized","Event.Source":"OTelJS","Event.Time":{"value":"2026-07-07T06:56:27.905Z","propertyType":9},"Event.Sequence":{"value":1,"propertyType":4},"Event.Id":"cbdea926-63f1-4821-bfe0-bf2da255f4b4.1","AppWorkload":"WebSSR","UserInfo_Language":"en-us","BrowserSessionId":"26ecda88-ac7e-4d2e-a574-59be82eda641","EcsRing":"StandardRelease","DevMode":false,"DeploymentEnvironment":"prod","IsEudbEndpointEnabled":true,"UserSegment_isAdmin":false,"UserSegment_isDynamics":false,"UserSegment_isEdu":false,"UserSegment_isEduFaculty":false,"UserSegment_isEduStudent":false,"UserSegment_isFirstVisit":false,"UserSegment_isIw":false,"UserSegment_isSmb":false,"SourceRepo":"1js","SourceApp":"office-home","App.Name":"AIHub","App.Platform":"Web","App.Version":"20260707T06:56:27.710Z.1.0","User.PrimaryIdentityHash":"00037FFE56CAADF1","User.PrimaryIdentitySpace":"MSAPUID","User.TenantId":"9188040d-6c67-4c5b-b112-36a304b66dad","User.TenantGroup":"Consumer","User.IsAnonymous":false,"Session.Id":"af4c6ece-07b6-88c2-d275-6d3ed2ef6b9f","Release.AudienceGroup":"Production","Data.OTelJS.Version":"4.25.11"},"time":"2026-07-07T06:56:27.905Z","baseType":"custom","ext":{"sdk":{"seq":1,"ver":"1DS-Web-JS-3.2.15"}},"timings":{"trackStart":2337.5,"processTelemetryStart":{"PostChannel":2337.5999999940395},"sendEventStart":{"PostChannel":4500.700000017881},"serializationStart":{"PostChannel":4499.5},"serializationCompleted":{"PostChannel":4500.5999999940395},"sendEventCompleted":{"PostChannel":4711.9000000059605}},"latency":1,"baseData":{"properties":{"version":"PostChannel=3.2.15"}},"ver":"4.0","sendAttempt":1}
+23:57:18.397 Navigated to https://m365.cloud.microsoft/apps?auth=0&from=dev&origindomain=microsoft365&client-request-id=26ecda88-ac7e-4d2e-a574-59be82eda641%27)%27--%27SLEEP(3)--
+23:57:21.779 Fetch failed loading: GET "<URL>".
+23:57:21.779 Fetch failed loading: GET "<URL>".
+23:57:21.779 Fetch failed loading: GET "<URL>".
+23:57:21.779 Fetch failed loading: GET "<URL>".
+23:57:21.779 Fetch failed loading: GET "<URL>".
+23:57:21.779 Fetch failed loading: GET "<URL>".
+23:57:20.382 react-umd.production.min.js:1 [Violation] 'message' handler took 193ms
+23:57:21.561 main.66c38700.js:23  GET https://graph.microsoft.com/v1.0/me/photos/96x96/$value 404 (Not Found)
+ys @ main.66c38700.js:23
+(anonymous) @ main.66c38700.js:23
+await in (anonymous)
+(anonymous) @ main.66c38700.js:23
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+fl @ react-umd.production.min.js:1
+Pn @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+ol @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Bl @ react-umd.production.min.js:1
+e.hydrateRoot @ react-umd.production.min.js:1
+(anonymous) @ main.66c38700.js:23
+e.startTransition @ react-umd.production.min.js:1
+ce @ main.66c38700.js:23
+await in ce
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:21.563 main.66c38700.js:23  GET https://graph.microsoft.com/v1.0/me/photos/96x96/$value 404 (Not Found)
+ys @ main.66c38700.js:23
+(anonymous) @ main.66c38700.js:23
+await in (anonymous)
+(anonymous) @ main.66c38700.js:23
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+fl @ react-umd.production.min.js:1
+Pn @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+ol @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Bl @ react-umd.production.min.js:1
+e.hydrateRoot @ react-umd.production.min.js:1
+(anonymous) @ main.66c38700.js:23
+e.startTransition @ react-umd.production.min.js:1
+ce @ main.66c38700.js:23
+await in ce
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:22.845 Fetch finished loading: GET "<URL>".
+23:57:22.845 Fetch finished loading: GET "<URL>".
+23:57:22.845 Fetch finished loading: GET "<URL>".
+23:57:22.845 Fetch finished loading: GET "<URL>".
+23:57:22.845 Fetch finished loading: GET "<URL>".
+23:57:22.845 Fetch finished loading: GET "<URL>".
+23:57:22.094 main.66c38700.js:23 Fetch finished loading: POST "https://m365.cloud.microsoft/chat?auth=0&from=dev&origindomain=microsoft365&client-request-id=26ecda88-ac7e-4d2e-a574-59be82eda641%27)%27--%27SLEEP(3)--".
+n @ main.66c38700.js:23
+await in n
+c @ main.vendors.a8863070.js:32
+(anonymous) @ main.vendors.a8863070.js:32
+u @ main.vendors.a8863070.js:32
+et @ main.vendors.a8863070.js:32
+await in et
+resolve @ main.vendors.a8863070.js:32
+(anonymous) @ main.66c38700.js:23
+(anonymous) @ main.66c38700.js:23
+(anonymous) @ main.vendors.a8863070.js:32
+Ye @ main.vendors.a8863070.js:32
+f @ main.vendors.a8863070.js:32
+(anonymous) @ main.66c38700.js:23
+Ye @ main.vendors.a8863070.js:32
+Je @ main.vendors.a8863070.js:32
+qe @ main.vendors.a8863070.js:32
+s @ main.vendors.a8863070.js:32
+dataStrategy @ main.66c38700.js:23
+$e @ main.vendors.a8863070.js:32
+be @ main.vendors.a8863070.js:31
+_e @ main.vendors.a8863070.js:31
+ge @ main.vendors.a8863070.js:31
+await in ge
+(anonymous) @ main.vendors.a8863070.js:53
+(anonymous) @ main.vendors.a8863070.js:53
+submit @ main.66c38700.js:23
+(anonymous) @ main.66c38700.js:23
+(anonymous) @ main.66c38700.js:23
+requestIdleCallback
+(anonymous) @ main.66c38700.js:23
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+fl @ react-umd.production.min.js:1
+Pn @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+ol @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Bl @ react-umd.production.min.js:1
+e.hydrateRoot @ react-umd.production.min.js:1
+(anonymous) @ main.66c38700.js:23
+e.startTransition @ react-umd.production.min.js:1
+ce @ main.66c38700.js:23
+await in ce
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:22.422 71165.9f2f658a.chunk.js:3  GET https://m365.cloud.microsoft/api/config/workloadPublicData?workload=M365CopilotSSR&auth=1 400 (Bad Request)
+(anonymous) @ 71165.9f2f658a.chunk.js:3
+xhr @ 71165.9f2f658a.chunk.js:3
+Zt @ 71165.9f2f658a.chunk.js:5
+_request @ 71165.9f2f658a.chunk.js:6
+request @ 71165.9f2f658a.chunk.js:5
+(anonymous) @ 71165.9f2f658a.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+await in (anonymous)
+f @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+c @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+Promise.then
+(anonymous) @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+s @ 26815.346a39ec.chunk.js:1
+p @ 26815.346a39ec.chunk.js:1
+await in p
+(anonymous) @ 26815.346a39ec.chunk.js:1
+h @ 26815.346a39ec.chunk.js:1
+i @ 72545.26cc30d7.chunk.js:3
+cacheTime @ m365-copilot-client-module-apps.300e36f0.chunk.js:6
+fetchFn @ 9568.7f5e2015.chunk.js:1
+x @ 9568.7f5e2015.chunk.js:1
+u @ 9568.7f5e2015.chunk.js:1
+fetch @ 9568.7f5e2015.chunk.js:1
+executeFetch @ 30508.f7261e4b.chunk.js:1
+onSubscribe @ 30508.f7261e4b.chunk.js:1
+subscribe @ 9568.7f5e2015.chunk.js:1
+(anonymous) @ 30508.f7261e4b.chunk.js:1
+_t @ react-umd.production.min.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Nl @ react-umd.production.min.js:1
+Tl @ react-umd.production.min.js:1
+Promise.then
+(anonymous) @ react-umd.production.min.js:1
+qr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+ol @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Bl @ react-umd.production.min.js:1
+e.hydrateRoot @ react-umd.production.min.js:1
+(anonymous) @ main.66c38700.js:23
+e.startTransition @ react-umd.production.min.js:1
+ce @ main.66c38700.js:23
+await in ce
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:22.431 71165.9f2f658a.chunk.js:3  GET https://m365.cloud.microsoft/api/config/consumerInstallInfo?workload=M365CopilotSSR&auth=1 400 (Bad Request)
+(anonymous) @ 71165.9f2f658a.chunk.js:3
+xhr @ 71165.9f2f658a.chunk.js:3
+Zt @ 71165.9f2f658a.chunk.js:5
+_request @ 71165.9f2f658a.chunk.js:6
+request @ 71165.9f2f658a.chunk.js:5
+(anonymous) @ 71165.9f2f658a.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+await in (anonymous)
+f @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+c @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+Promise.then
+(anonymous) @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+s @ 26815.346a39ec.chunk.js:1
+p @ 26815.346a39ec.chunk.js:1
+await in p
+(anonymous) @ 26815.346a39ec.chunk.js:1
+h @ 26815.346a39ec.chunk.js:1
+i @ 96770.b77bd677.chunk.js:1
+cacheTime @ m365-copilot-client-module-apps.300e36f0.chunk.js:6
+fetchFn @ 9568.7f5e2015.chunk.js:1
+x @ 9568.7f5e2015.chunk.js:1
+u @ 9568.7f5e2015.chunk.js:1
+fetch @ 9568.7f5e2015.chunk.js:1
+executeFetch @ 30508.f7261e4b.chunk.js:1
+onSubscribe @ 30508.f7261e4b.chunk.js:1
+subscribe @ 9568.7f5e2015.chunk.js:1
+(anonymous) @ 30508.f7261e4b.chunk.js:1
+_t @ react-umd.production.min.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Nl @ react-umd.production.min.js:1
+Tl @ react-umd.production.min.js:1
+Promise.then
+(anonymous) @ react-umd.production.min.js:1
+qr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+ol @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Bl @ react-umd.production.min.js:1
+e.hydrateRoot @ react-umd.production.min.js:1
+(anonymous) @ main.66c38700.js:23
+e.startTransition @ react-umd.production.min.js:1
+ce @ main.66c38700.js:23
+await in ce
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:22.446 71165.9f2f658a.chunk.js:3 XHR failed loading: GET "https://m365.cloud.microsoft/api/config/workloadPublicData?workload=M365CopilotSSR&auth=1".
+(anonymous) @ 71165.9f2f658a.chunk.js:3
+xhr @ 71165.9f2f658a.chunk.js:3
+Zt @ 71165.9f2f658a.chunk.js:5
+_request @ 71165.9f2f658a.chunk.js:6
+request @ 71165.9f2f658a.chunk.js:5
+(anonymous) @ 71165.9f2f658a.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+await in (anonymous)
+f @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+c @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+Promise.then
+(anonymous) @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+s @ 26815.346a39ec.chunk.js:1
+p @ 26815.346a39ec.chunk.js:1
+await in p
+(anonymous) @ 26815.346a39ec.chunk.js:1
+h @ 26815.346a39ec.chunk.js:1
+i @ 72545.26cc30d7.chunk.js:3
+cacheTime @ m365-copilot-client-module-apps.300e36f0.chunk.js:6
+fetchFn @ 9568.7f5e2015.chunk.js:1
+x @ 9568.7f5e2015.chunk.js:1
+u @ 9568.7f5e2015.chunk.js:1
+fetch @ 9568.7f5e2015.chunk.js:1
+executeFetch @ 30508.f7261e4b.chunk.js:1
+onSubscribe @ 30508.f7261e4b.chunk.js:1
+subscribe @ 9568.7f5e2015.chunk.js:1
+(anonymous) @ 30508.f7261e4b.chunk.js:1
+_t @ react-umd.production.min.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Nl @ react-umd.production.min.js:1
+Tl @ react-umd.production.min.js:1
+Promise.then
+(anonymous) @ react-umd.production.min.js:1
+qr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+ol @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Bl @ react-umd.production.min.js:1
+e.hydrateRoot @ react-umd.production.min.js:1
+(anonymous) @ main.66c38700.js:23
+e.startTransition @ react-umd.production.min.js:1
+ce @ main.66c38700.js:23
+await in ce
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:22.450 71165.9f2f658a.chunk.js:3 XHR failed loading: GET "https://m365.cloud.microsoft/api/config/consumerInstallInfo?workload=M365CopilotSSR&auth=1".
+(anonymous) @ 71165.9f2f658a.chunk.js:3
+xhr @ 71165.9f2f658a.chunk.js:3
+Zt @ 71165.9f2f658a.chunk.js:5
+_request @ 71165.9f2f658a.chunk.js:6
+request @ 71165.9f2f658a.chunk.js:5
+(anonymous) @ 71165.9f2f658a.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+await in (anonymous)
+f @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+c @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+Promise.then
+(anonymous) @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+s @ 26815.346a39ec.chunk.js:1
+p @ 26815.346a39ec.chunk.js:1
+await in p
+(anonymous) @ 26815.346a39ec.chunk.js:1
+h @ 26815.346a39ec.chunk.js:1
+i @ 96770.b77bd677.chunk.js:1
+cacheTime @ m365-copilot-client-module-apps.300e36f0.chunk.js:6
+fetchFn @ 9568.7f5e2015.chunk.js:1
+x @ 9568.7f5e2015.chunk.js:1
+u @ 9568.7f5e2015.chunk.js:1
+fetch @ 9568.7f5e2015.chunk.js:1
+executeFetch @ 30508.f7261e4b.chunk.js:1
+onSubscribe @ 30508.f7261e4b.chunk.js:1
+subscribe @ 9568.7f5e2015.chunk.js:1
+(anonymous) @ 30508.f7261e4b.chunk.js:1
+_t @ react-umd.production.min.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Nl @ react-umd.production.min.js:1
+Tl @ react-umd.production.min.js:1
+Promise.then
+(anonymous) @ react-umd.production.min.js:1
+qr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+ol @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Bl @ react-umd.production.min.js:1
+e.hydrateRoot @ react-umd.production.min.js:1
+(anonymous) @ main.66c38700.js:23
+e.startTransition @ react-umd.production.min.js:1
+ce @ main.66c38700.js:23
+await in ce
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:22.477 main.66c38700.js:23 Fetch finished loading: POST "https://m365.cloud.microsoft/chat?auth=0&from=dev&origindomain=microsoft365&client-request-id=26ecda88-ac7e-4d2e-a574-59be82eda641%27)%27--%27SLEEP(3)--".
+n @ main.66c38700.js:23
+await in n
+c @ main.vendors.a8863070.js:32
+(anonymous) @ main.vendors.a8863070.js:32
+u @ main.vendors.a8863070.js:32
+et @ main.vendors.a8863070.js:32
+resolve @ main.vendors.a8863070.js:32
+(anonymous) @ main.66c38700.js:23
+(anonymous) @ main.66c38700.js:23
+(anonymous) @ main.vendors.a8863070.js:32
+Ye @ main.vendors.a8863070.js:32
+f @ main.vendors.a8863070.js:32
+(anonymous) @ main.66c38700.js:23
+Ye @ main.vendors.a8863070.js:32
+Je @ main.vendors.a8863070.js:32
+qe @ main.vendors.a8863070.js:32
+s @ main.vendors.a8863070.js:32
+dataStrategy @ main.66c38700.js:23
+$e @ main.vendors.a8863070.js:32
+be @ main.vendors.a8863070.js:31
+_e @ main.vendors.a8863070.js:31
+ge @ main.vendors.a8863070.js:31
+await in ge
+(anonymous) @ main.vendors.a8863070.js:53
+(anonymous) @ main.vendors.a8863070.js:53
+submit @ main.66c38700.js:23
+(anonymous) @ m365-copilot-client-module-apps.300e36f0.chunk.js:1
+(anonymous) @ m365-copilot-client-module-apps.300e36f0.chunk.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Nl @ react-umd.production.min.js:1
+Tl @ react-umd.production.min.js:1
+Promise.then
+(anonymous) @ react-umd.production.min.js:1
+qr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+Kr @ react-umd.production.min.js:1
+Yr @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+ol @ react-umd.production.min.js:1
+g @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+ce @ react-umd.production.min.js:1
+postMessage
+fe @ react-umd.production.min.js:1
+v @ react-umd.production.min.js:1
+unstable_scheduleCallback @ react-umd.production.min.js:1
+Ll @ react-umd.production.min.js:1
+ul @ react-umd.production.min.js:1
+Bl @ react-umd.production.min.js:1
+e.hydrateRoot @ react-umd.production.min.js:1
+(anonymous) @ main.66c38700.js:23
+e.startTransition @ react-umd.production.min.js:1
+ce @ main.66c38700.js:23
+await in ce
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:23.034 main.66c38700.js:23 Fetch finished loading: POST "https://m365.cloud.microsoft/events".
+O @ main.66c38700.js:23
+await in O
+A @ main.66c38700.js:23
+e @ main.66c38700.js:23
+(anonymous) @ main.66c38700.js:23
+setTimeout
+j @ main.66c38700.js:23
+u @ main.66c38700.js:23
+u @ main.66c38700.js:23
+ce @ main.66c38700.js:23
+le @ main.66c38700.js:23
+498633 @ main.66c38700.js:23
+n @ runtime.7b1b734b.js:1
+t @ main.66c38700.js:25
+(anonymous) @ main.66c38700.js:25
+n.O @ runtime.7b1b734b.js:1
+(anonymous) @ main.66c38700.js:25
+t @ runtime.7b1b734b.js:2
+(anonymous) @ main.66c38700.js:1
+23:57:23.037 71165.9f2f658a.chunk.js:3  GET https://m365.cloud.microsoft/api/m365AppDefinition/?workload=M365CopilotSSR&auth=1 404 (Not Found)
+(anonymous) @ 71165.9f2f658a.chunk.js:3
+xhr @ 71165.9f2f658a.chunk.js:3
+Zt @ 71165.9f2f658a.chunk.js:5
+_request @ 71165.9f2f658a.chunk.js:6
+request @ 71165.9f2f658a.chunk.js:5
+(anonymous) @ 71165.9f2f658a.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+await in (anonymous)
+f @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+c @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+Promise.then
+(anonymous) @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+s @ 26815.346a39ec.chunk.js:1
+S @ 60878.929b9770.chunk.js:1
+await in S
+C @ 60878.929b9770.chunk.js:4
+await in C
+z @ 60878.929b9770.chunk.js:4
+await in z
+B @ 60878.929b9770.chunk.js:4
+s @ 60878.929b9770.chunk.js:4
+await in s
+o @ 60878.929b9770.chunk.js:4
+(anonymous) @ 60878.929b9770.chunk.js:1
+T @ 72545.26cc30d7.chunk.js:3
+(anonymous) @ 60878.929b9770.chunk.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+fl @ react-umd.production.min.js:1
+Pn @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+23:57:23.054 65416.1ad6e32c.chunk.js:1  GET https://substrate.office.com/recommended/api/v2.0/edgeworth/recent?top=15&rs=en-us&excludeApps=WebLink net::ERR_ABORTED 401 (Unauthorized)
+(anonymous) @ 65416.1ad6e32c.chunk.js:1
+await in (anonymous)
+(anonymous) @ 65416.1ad6e32c.chunk.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+fl @ react-umd.production.min.js:1
+Pn @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+23:57:23.059 71165.9f2f658a.chunk.js:3 XHR failed loading: GET "https://m365.cloud.microsoft/api/m365AppDefinition/?workload=M365CopilotSSR&auth=1".
+(anonymous) @ 71165.9f2f658a.chunk.js:3
+xhr @ 71165.9f2f658a.chunk.js:3
+Zt @ 71165.9f2f658a.chunk.js:5
+_request @ 71165.9f2f658a.chunk.js:6
+request @ 71165.9f2f658a.chunk.js:5
+(anonymous) @ 71165.9f2f658a.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+await in (anonymous)
+f @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+c @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+Promise.then
+(anonymous) @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+s @ 26815.346a39ec.chunk.js:1
+S @ 60878.929b9770.chunk.js:1
+await in S
+C @ 60878.929b9770.chunk.js:4
+await in C
+z @ 60878.929b9770.chunk.js:4
+await in z
+B @ 60878.929b9770.chunk.js:4
+s @ 60878.929b9770.chunk.js:4
+await in s
+o @ 60878.929b9770.chunk.js:4
+(anonymous) @ 60878.929b9770.chunk.js:1
+T @ 72545.26cc30d7.chunk.js:3
+(anonymous) @ 60878.929b9770.chunk.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+fl @ react-umd.production.min.js:1
+Pn @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+23:57:25.987 XHR finished loading: POST "<URL>".
+23:57:25.987 XHR finished loading: POST "<URL>".
+23:57:25.987 XHR finished loading: POST "<URL>".
+23:57:25.987 XHR finished loading: POST "<URL>".
+23:57:25.987 XHR finished loading: POST "<URL>".
+23:57:25.987 XHR finished loading: POST "<URL>".
+23:57:25.987 XHR finished loading: POST "<URL>".
+23:57:24.077 71165.9f2f658a.chunk.js:3 XHR finished loading: GET "https://graph.microsoft.com/v1.0/me/drive".
+(anonymous) @ 71165.9f2f658a.chunk.js:3
+xhr @ 71165.9f2f658a.chunk.js:3
+Zt @ 71165.9f2f658a.chunk.js:5
+_request @ 71165.9f2f658a.chunk.js:6
+request @ 71165.9f2f658a.chunk.js:5
+(anonymous) @ 71165.9f2f658a.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+await in (anonymous)
+f @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+c @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+(anonymous) @ 26815.346a39ec.chunk.js:1
+Promise.then
+(anonymous) @ 26815.346a39ec.chunk.js:1
+m @ 26815.346a39ec.chunk.js:1
+s @ 26815.346a39ec.chunk.js:1
+te @ 18079.29a40e9e.chunk.js:1
+userId @ 18079.29a40e9e.chunk.js:1
+r @ 72545.26cc30d7.chunk.js:3
+i @ 72545.26cc30d7.chunk.js:3
+k @ 18079.29a40e9e.chunk.js:1
+A.staleTime @ 18079.29a40e9e.chunk.js:1
+fetchFn @ 9568.7f5e2015.chunk.js:1
+x @ 9568.7f5e2015.chunk.js:1
+u @ 9568.7f5e2015.chunk.js:1
+fetch @ 9568.7f5e2015.chunk.js:1
+executeFetch @ 30508.f7261e4b.chunk.js:1
+setOptions @ 30508.f7261e4b.chunk.js:1
+(anonymous) @ 30508.f7261e4b.chunk.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+fl @ react-umd.production.min.js:1
+Pn @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+setTimeout
+(anonymous) @ 9568.7f5e2015.chunk.js:1
+E @ 9568.7f5e2015.chunk.js:1
+D @ 9568.7f5e2015.chunk.js:1
+c @ 9568.7f5e2015.chunk.js:1
+a @ 9568.7f5e2015.chunk.js:1
+dispatch @ 9568.7f5e2015.chunk.js:1
+setData @ 9568.7f5e2015.chunk.js:1
+onSuccess @ 9568.7f5e2015.chunk.js:1
+v @ 9568.7f5e2015.chunk.js:1
+Promise.then
+x @ 9568.7f5e2015.chunk.js:1
+u @ 9568.7f5e2015.chunk.js:1
+fetch @ 9568.7f5e2015.chunk.js:1
+executeFetch @ 30508.f7261e4b.chunk.js:1
+onSubscribe @ 30508.f7261e4b.chunk.js:1
+subscribe @ 9568.7f5e2015.chunk.js:1
+(anonymous) @ 30508.f7261e4b.chunk.js:1
+_t @ react-umd.production.min.js:1
+Ur @ react-umd.production.min.js:1
+El @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+xl @ react-umd.production.min.js:1
+fl @ react-umd.production.min.js:1
+Pn @ react-umd.production.min.js:1
+(anonymous) @ react-umd.production.min.js:1
+23:57:24.577 74200.a2e4cb23.chunk.js:1 {"iKey":"86e373bba78849b9a171f1691f60be36-8b939b94-65a5-48dc-bb15-7db2cdb0650f-7210","name":"Office.AIHub.Web.OfficeStart.Startup.Event.AiHubLoggerInitialized","data":{"Event.Name":"Office.AIHub.Web.OfficeStart.Startup.Event.AiHubLoggerInitialized","Event.Source":"OTelJS","Event.Time":{"value":"2026-07-07T06:57:22.116Z","propertyType":9},"Event.Sequence":{"value":1,"propertyType":4},"Event.Id":"61562274-a529-4ede-b572-755f509a8e0c.1","AppWorkload":"WebSSR","UserInfo_Language":"en-us","BrowserSessionId":"26ecda88-ac7e-4d2e-a574-59be82eda641","EcsRing":"StandardRelease","DevMode":false,"DeploymentEnvironment":"prod","IsEudbEndpointEnabled":true,"UserSegment_isAdmin":false,"UserSegment_isDynamics":false,"UserSegment_isEdu":false,"UserSegment_isEduFaculty":false,"UserSegment_isEduStudent":false,"UserSegment_isFirstVisit":false,"UserSegment_isIw":false,"UserSegment_isSmb":false,"SourceRepo":"1js","SourceApp":"office-home","App.Name":"AIHub","App.Platform":"Web","App.Version":"20260707T06:57:21.883Z.1.0","User.PrimaryIdentityHash":"00037FFE56CAADF1","User.PrimaryIdentitySpace":"MSAPUID","User.TenantId":"9188040d-6c67-4c5b-b112-36a304b66dad","User.TenantGroup":"Consumer","User.IsAnonymous":false,"Session.Id":"badd059f-fefc-66e2-16c6-7757e46eb731","Release.AudienceGroup":"Production","Data.OTelJS.Version":"4.25.11"},"time":"2026-07-07T06:57:22.116Z","baseType":"custom","ext":{"sdk":{"seq":1,"ver":"1DS-Web-JS-3.2.15"}},"timings":{"trackStart":4056.5999999940395,"processTelemetryStart":{"PostChannel":4056.7000000178814},"sendEventStart":{"PostChannel":6291.300000011921},"serializationStart":{"PostChannel":6291},"serializationCompleted":{"PostChannel":6291.200000017881},"sendEventCompleted":{"PostChannel":6502.700000017881}},"latency":1,"baseData":{"properties":{"version":"PostChannel=3.2.15"}},"ver":"4.0","sendAttempt":1}

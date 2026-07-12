@@ -1,0 +1,18 @@
+# Operating System Primitives
+Thumbs.db
+Desktop.ini
+$Recycle.Bin/
+System Volume Information/
+*.sys
+*.log
+*.tmp
+
+# Environment Variables & Sensitive Key Stores
+.keys/
+*.pem
+*.pfx
+
+# Virtual Machine & Hypervisor artifacts
+*.vmdk
+*.vdi
+*.vmem

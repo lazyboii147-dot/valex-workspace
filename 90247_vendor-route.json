@@ -1,0 +1,46 @@
+{
+  "fallback": "PSIRT",
+  "explicit": {},
+  "patterns": {
+    "google": [
+      "google.com",
+      "gstatic.com",
+      "youtube.com",
+      "android.com"
+    ],
+    "linux": [
+      "kernel.org",
+      "gnu.org",
+      "debian.org",
+      "ubuntu.com",
+      "canonical.com",
+      "redhat.com",
+      "fedora.org",
+      "centos.org",
+      "suse.com",
+      "opensuse.org",
+      "archlinux.org",
+      "manjaro.org",
+      "alpinelinux.org"
+    ],
+    "firefox": [
+      "mozilla.org",
+      "firefox.com",
+      "addons.mozilla.org",
+      "mozilla.net"
+    ],
+    "microsoft": [
+      "microsoft.com",
+      "windows.com",
+      "azure.com",
+      "office.com",
+      "live.com"
+    ],
+    "bugcrowd": [
+      "bugcrowd.com"
+    ],
+    "hackerone": [
+      "hackerone.com"
+    ]
+  }
+}

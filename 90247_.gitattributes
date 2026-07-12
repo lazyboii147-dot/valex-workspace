@@ -1,0 +1,17 @@
+# OMNIBUS Version Control Normalization Profile
+# Mandate: Enforce line-feed consistency across Windows/WSL boundaries
+
+# Define global defaults for text matching
+* text=auto eol=lf
+
+# Explicitly maintain script formatting overrides
+*.ps1       text eol=crlf
+*.bat       text eol=crlf
+*.sh        text eol=lf
+*.bash      text eol=lf
+
+# Core Metadata Types
+*.json      text
+*.yaml      text
+*.yml       text
+*.md        text
