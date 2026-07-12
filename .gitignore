@@ -1,3 +1,11 @@
 __pycache__/
 *.py[cod]
 .venv/
+# OMNIBUS CAUTERIZATION LIST
+*.har
+*.devtools
+*.log
+*.json
+# Specifically targeting the identified leak paths
+VALEX_File_Crawl.json
+m365.cloud.microsoft*
