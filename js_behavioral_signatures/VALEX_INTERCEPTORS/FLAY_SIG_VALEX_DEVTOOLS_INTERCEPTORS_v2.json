@@ -1,0 +1,26 @@
+﻿{
+    "id":  "FLAY_SIG_VALEX_DEVTOOLS_INTERCEPTORS_v2",
+    "passivationState":  "passivated",
+    "sourceZone":  "CL34RBOX / ingestion/raw",
+    "componentArtifacts":  [
+                               "gemini-code-1782698253186.js",
+                               "gemini-code-1782697393363.js",
+                               "gemini-code-1782693985922.js",
+                               "gemini-code-1782693796511.js",
+                               "gemini-code-1782693788716.js",
+                               "gemini-code-1782692875075.js",
+                               "gemini-code-1782692793306.js"
+                           ],
+    "signatureVersion":  "2.0",
+    "observedMechanisms":  [
+                               "MeePortal feature flag and user flight manipulation arrays",
+                               "Window Fetch interceptor loops targeting OneCollector feedback streaming endpoints",
+                               "Console persistence logger redirection hooks capturing trace streams in global arrays",
+                               "Object.defineProperty memory freezing mechanisms constraining MSA.MeControl.Config configurations",
+                               "Document body MutationObserver engines monitoring data-ux-component insertion cycles",
+                               "Fake programmatic UI component scroll and visibility state dispatch triggers",
+                               "EventTarget prototype dispatchEvent sniffing matrices matching shell and msa events",
+                               "Instance state desynchronization profiling targeting dual window.MeControl configurations"
+                           ],
+    "neutralized":  true
+}

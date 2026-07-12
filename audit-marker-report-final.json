@@ -1,0 +1,17 @@
+﻿{
+    "auditVersion":  "1.2",
+    "session":  {
+                    "marker":  "OMNIBUS_ALARM_NODE",
+                    "shard":  "90247_GARDENA_SHADOW_PERSISTENCE"
+                },
+    "events":  [
+                   {
+                       "timestamp":  "2026-06-20T01:33:39.113-07:00",
+                       "source":  "WAA_PING_MONITOR",
+                       "payload":  {
+                                       "shardId":  "90247_GARDENA_SHADOW_PERSISTENCE",
+                                       "status":  "Mutated"
+                                   }
+                   }
+               ]
+}

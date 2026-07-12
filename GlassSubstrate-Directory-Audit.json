@@ -1,0 +1,39 @@
+{
+  "SessionID": "DIR_GlassSubstrate_Audit_20260620_015655",
+  "Timestamp": "2026-06-20T01:56:00.288-07:00",
+  "Node": "90247_GARDENA_ALPHA",
+  "Status": "CRAWL_COMPLETE",
+  "FileCount": 0,
+  "GlassSubstratePlan": {
+    "Capability": "GlassSubstrate_KillSwitch",
+    "Mode": "PLAN_ONLY",
+    "Timestamp": "2026-06-20T01:56:00.288-07:00",
+    "Telemetry": {
+      "Targets": [
+        "siq",
+        "speedInsightsBeforeSend"
+      ],
+      "Strategy": "override-to-noop"
+    },
+    "Analytics": {
+      "Hooks": [
+        "ga",
+        "ga4",
+        "appInsights",
+        "vortex",
+        "clarity"
+      ],
+      "Strategy": "noop"
+    },
+    "DomRemoval": {
+      "Selectors": [
+        "vercel-speed-insights",
+        "astro-island",
+        "script[src*='vercel']"
+      ]
+    },
+    "Notes": "This plan documents the capability only. Execution requires explicit operator toggle."
+  },
+  "Files": null,
+  "IntegrityHash": "4A093B74C2715ECBB791017BA5C896E511DFE118DE1EC0D1ACB3828ACE63DCA0"
+}

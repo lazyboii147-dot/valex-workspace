@@ -1,0 +1,17 @@
+{
+    "Species":  "Redirector",
+    "Habitat":  "Ad-Tech Auction Mesh",
+    "Behavior":  [
+                     "Cross-domain identity stitching",
+                     "Consent override attempts",
+                     "Auction price syncing",
+                     "Payload obfuscation"
+                 ],
+    "ThreatLevel":  "High",
+    "EvidenceNode":  "https://www.bing.com/api/v1/mediation/tracking?adUnit=1732768568\u0026auId=c43b944b-d3ca-45dc-98b6-5347cb098ade\u0026bdc=pb\u0026bidId=17\u0026bidderId=4\u0026cmExpId=RSV\u0026impId=1\u0026impTy=1\u0026ldc=jhf2pczr\u0026mkt=en-us\u0026oAdUnit=1732768568\u0026pId=1\u0026publisherId=17160724\u0026rId=8a80d90d-b7d2-4dc8-b890-7a13e8839773\u0026region=na\u0026rlink=https%3A%2F%2Fwww.bing.com%2Faes%2Fc.gif%3Ftype%3Dmv%26reqver%3D1.0%26rg%3D08b690ba15eb4e4ab4f7a579f5d1106e%26tids%3D17%26med%3D10\u0026rtype=mvFeedbackURL\u0026tagId=binghp-infopane-3\u0026trafficGroup=zfa_angvir\u0026trafficSubGroup=erfreir\u0026uberGroup=hore_1c\u0026uberSubGroup=oenaq_fnsrgl_i2_ubyqbhg",
+    "Timestamp":  {
+                      "value":  "\/Date(1783551150432)\/",
+                      "DisplayHint":  2,
+                      "DateTime":  "Wednesday, July 8, 2026 3:52:30 PM"
+                  }
+}

@@ -1,0 +1,9 @@
+﻿{
+    "module":  "TIMELINE_DOSSIER_IMPORTS",
+    "image_types":  [
+                        "Screenshot_*.jpg",
+                        "Screenshot_*.png"
+                    ],
+    "flay_binding":  "Image-Dossier",
+    "classification":  "Inert-Evidence-Node"
+}

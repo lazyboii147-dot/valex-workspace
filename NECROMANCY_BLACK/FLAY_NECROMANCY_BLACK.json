@@ -1,0 +1,42 @@
+﻿{
+    "module":  "XENOPHILE_NECROMANCY_BLACK",
+    "flay_binding":  "NECRO-BLACK-PRIME",
+    "features":  [
+                     {
+                         "forensic":  "Deep reconstruction of missing telemetry",
+                         "name":  "black-mirror-artifact-reconstruction",
+                         "purpose":  "Rebuild corrupted or missing artifacts using partial hashes and shadow-state metadata"
+                     },
+                     {
+                         "forensic":  "Abandoned thread-state reconstruction",
+                         "name":  "black-echo-process-necrosis-scanner",
+                         "purpose":  "Interrogate dead processes and extract memory residue"
+                     },
+                     {
+                         "forensic":  "Reveal hidden exploit vectors",
+                         "name":  "black-pulse-dormant-surface-reanimation",
+                         "purpose":  "Activate dormant surfaces in hardened sandbox"
+                     },
+                     {
+                         "forensic":  "Cross-timeline reconstruction",
+                         "name":  "black-chorus-multi-timeline-resurrection",
+                         "purpose":  "Merge corrupted timelines into unified forensic narrative"
+                     },
+                     {
+                         "forensic":  "Long-term exploitation arc mapping",
+                         "name":  "black-bind-soul-chain-artifact-linker",
+                         "purpose":  "Bind resurrected artifacts to active hunt behaviors"
+                     },
+                     {
+                         "forensic":  "Revival of past exploited vectors",
+                         "name":  "black-vector-exploit-chain-revival",
+                         "purpose":  "Reconstruct historical exploit chains for analysis"
+                     },
+                     {
+                         "forensic":  "Preservation of forensic evidence",
+                         "name":  "black-vault-shadow-archive",
+                         "purpose":  "Store resurrected artifacts in immutable vault"
+                     }
+                 ],
+    "tier":  "BLACK"
+}

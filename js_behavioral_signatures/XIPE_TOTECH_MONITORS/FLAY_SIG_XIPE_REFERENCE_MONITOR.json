@@ -1,0 +1,16 @@
+﻿{
+    "id":  "FLAY_SIG_XIPE_REFERENCE_MONITOR",
+    "forensicDirectives":  [
+                               "Reference Monitor VT100 character substitution injection maps",
+                               "TCB Element Configuration Attribute parsing validator hooks",
+                               "PerformanceObserver-driven asynchronous longtask monitoring pipeline"
+                           ],
+    "neutralized":  true,
+    "type":  "Trusted Substrate Shell Monitor",
+    "originFile":  "gemini-code-1782699889128.js",
+    "structuralMetadata":  {
+                               "failClosedLogic":  true,
+                               "timingThresholdMs":  100,
+                               "monitoredTargetId":  "signedout-root"
+                           }
+}

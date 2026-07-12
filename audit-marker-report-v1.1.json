@@ -1,0 +1,72 @@
+﻿{
+    "auditVersion":  "1.1",
+    "session":  {
+                    "sessionId":  "m9fhG1cMAYblIqolwU849EXBp_bp9xnLiHkTERVoV_fjqiPWeFHmmg",
+                    "gwsSessionId":  "qMa0sr3ZmZEviDv0BajbNZZRUYsbDEZ8zzJ2tqftew1PBeseE0q07w",
+                    "source":  "google-web-session",
+                    "clientInfo":  {
+                                       "userAgent":  "Mozilla/5.0 (Windows NT 10.0; Win64; x64)...",
+                                       "platform":  "Win32"
+                                   }
+                },
+    "events":  [
+                   {
+                       "timestamp":  "2026-06-20T01:26:39.934-07:00",
+                       "metadata":  {
+                                        "correlationId":  "353aa969-23e9-4a7e-b44c-97824edbc5e6",
+                                        "environment":  "production",
+                                        "origin":  "client-side-browser"
+                                    },
+                       "direction":  "request",
+                       "method":  "POST",
+                       "url":  "https://play.google.com/log",
+                       "query":  {
+                                     "authuser":  "0",
+                                     "hasfast":  "true"
+                                 },
+                       "status":  null,
+                       "statusText":  "",
+                       "error":  "NS_ERROR_FAILURE",
+                       "headers":  {
+
+                                   },
+                       "body":  {
+
+                                },
+                       "markers":  [
+                                       "google-play-log",
+                                       "telemetry"
+                                   ],
+                       "notes":  "Network layer timeout during telemetry dispatch"
+                   },
+                   {
+                       "timestamp":  "2026-06-20T01:26:39.947-07:00",
+                       "metadata":  {
+                                        "correlationId":  "c4a88f0b-9d1d-4472-9ef9-798b28a3928d",
+                                        "environment":  "production",
+                                        "origin":  "client-side-browser"
+                                    },
+                       "direction":  "response",
+                       "method":  "POST",
+                       "url":  "https://www.google.com/search",
+                       "query":  {
+
+                                 },
+                       "status":  200,
+                       "statusText":  "OK",
+                       "error":  "",
+                       "headers":  {
+
+                                   },
+                       "body":  {
+                                    "sessionId":  "m9fhG1c...",
+                                    "cell":  "dz"
+                                },
+                       "markers":  [
+                                       "session-init",
+                                       "google-gws"
+                                   ],
+                       "notes":  "Successful bootstrap of GWS session"
+                   }
+               ]
+}

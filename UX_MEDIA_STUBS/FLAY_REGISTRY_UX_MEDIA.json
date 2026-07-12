@@ -1,0 +1,13 @@
+﻿{
+    "module":  "UX_MEDIA_STUBS",
+    "behaviors":  [
+                      "layout-anomaly",
+                      "window-focus-loop",
+                      "element-mutation"
+                  ],
+    "artifacts":  [
+                      "endless-entertainment-gallery.built.js",
+                      "mutation-wrapper.js",
+                      "focus-loop-handler.js"
+                  ]
+}
