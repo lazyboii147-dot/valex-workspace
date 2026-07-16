@@ -1,0 +1,42 @@
+// CLEARBOXX HARDENING PATCH — UET + WebInsights
+(function() {
+  "use strict";
+
+  // 1. Neutralize UET user-signal injection
+  Object.defineProperty(window, "uetq", {
+    get() { return []; },
+    set() {},
+    configurable: true
+  });
+
+  // 2. Block setUserSignals calls
+  window.setUserSignals = function() {
+    console.log("[CLEARBOXX] Blocked setUserSignals");
+  };
+
+  // 3. Override webinsights queue
+  window.webinsights = function() {
+    console.log("[CLEARBOXX] Blocked webinsights call");
+  };
+  window.webinsights.q = [];
+
+  // 4. Block Bing conversion script loader
+  const origCreate = document.createElement;
+  document.createElement = function(tag) {
+    const el = origCreate.call(document, tag);
+    if (tag === "script") {
+      Object.defineProperty(el, "src", {
+        set(v) {
+          if (v.includes("bat.bing.com")) {
+            console.log("[CLEARBOXX] Blocked Bing conversion script:", v);
+            return;
+          }
+          el.setAttribute("src", v);
+        }
+      });
+    }
+    return el;
+  };
+
+  console.log("[CLEARBOXX] UET + WebInsights telemetry neutralized.");
+})();
