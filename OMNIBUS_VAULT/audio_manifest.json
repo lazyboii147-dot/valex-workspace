@@ -1,0 +1,12 @@
+{
+  "project": "OMNIBUS_CLEAR_BOX_AUDIO",
+  "operator": "olvi",
+  "initialized_timestamp": "2026-06-01T10:29:03Z",
+  "vault_integrity": "LOCAL_VERIFIED",
+  "structural_nodes": {
+    "root": "./OMNIBUS_VAULT",
+    "audio_ingest": "./OMNIBUS_VAULT/AUDIO_INGEST",
+    "logs": "./OMNIBUS_VAULT/LOGS"
+  },
+  "status": "READY"
+}

@@ -1,0 +1,150 @@
+{
+  "project": "90247_GARDENA",
+  "dossier": "OMNIBUS_MASTER_SECURITY_DOSSIER",
+  "version": "3.2.0",
+  "governance": {
+    "ontology": "Domain:Layer:Object",
+    "last_audit": "2026-05-27T03:07:12Z",
+    "domains": [
+      {
+        "name": "Substrate",
+        "description": "Kernel-level primitives, WSL virtual endpoints, and system supervisor stability.",
+        "artifacts": {
+          "REF": {
+            "WSL-INIT": {
+              "id": "OMNI-ID-FIND-WSL-INIT",
+              "path": "vault/Substrate/REF/WSL-INIT",
+              "metadata": "Virtual UNC endpoint for \\\\wsl.localhost\\Ubuntu\\init (PID 1 supervisor)."
+            },
+            "AUDIT-REPORT-LOG": {
+              "id": "OMNI-ID-REF-AUDIT-SUMMARY",
+              "path": "vault/Substrate/REF/AUDIT-REPORT-LOG",
+              "files": [
+                "Screenshot_20260513_174916_Outlook.jpg",
+                "Screenshot_20260513_174841_Outlook.jpg",
+                "Screenshot_20260513_174825_Outlook.jpg",
+                "Screenshot_20260513_174818_Outlook.jpg",
+                "Screenshot_20260512_031915_Gmail.jpg",
+                "Screenshot_20260512_031458_Outlook.jpg",
+                "Screenshot_20260512_031451_Outlook.jpg",
+                "Screenshot_20260512_031527_Outlook.jpg"
+              ]
+            }
+          },
+          "META": {
+            "CPU-SATURATION": {
+              "id": "OMNI-ID-FIND-WSL-STRESS-CPU",
+              "path": "vault/Substrate/META/CPU-SATURATION",
+              "metrics": "33.3% user, 66.7% system load observed."
+            },
+            "IO-PRESSURE": {
+              "id": "OMNI-ID-FIND-WSL-STRESS-IO",
+              "path": "vault/Substrate/META/IO-PRESSURE",
+              "metrics": "I/O Wait baseline 0.0–3.0%."
+            }
+          },
+          "FIND": {}
+        }
+      },
+      {
+        "name": "Workload",
+        "description": "Git index operations, process execution, and local development lifecycle artifacts.",
+        "artifacts": {
+          "REF": {
+            "GIT-THROUGHPUT": {
+              "id": "OMNI-ID-FIND-GIT-THROUGHPUT",
+              "path": "vault/Workload/REF/GIT-THROUGHPUT",
+              "benchmark": "5s_COMMIT_CYCLE",
+              "note": "Validated index atomicity under high concurrency."
+            }
+          },
+          "META": {
+            "GIT-RECOVERY": {
+              "id": "OMNI-ID-FIND-GIT-RECOVERY",
+              "path": "vault/Workload/META/GIT-RECOVERY",
+              "procedure": "git_reset_hard_git_clean_fd"
+            }
+          },
+          "FIND": {
+            "DISCLOSURE-TRACKER": {
+              "id": "OMNI-ID-FIND-DISCLOSURE-TRACKER",
+              "path": "vault/Workload/FIND/DISCLOSURE-TRACKER",
+              "note": "Active tracking of BugCrowd/HackerOne submissions including Canvas LMS, Marriott, and NetScaler."
+            }
+          }
+        }
+      },
+      {
+        "name": "Telemetry",
+        "description": "Application-level telemetry exfiltration surface, authentication gates, and packet analysis.",
+        "artifacts": {
+          "REF": {
+            "TELEMETRY-SERIALIZER": {
+              "id": "OMNI-ID-FIND-TELEMETRY-SERIALIZER",
+              "path": "vault/Telemetry/REF/TELEMETRY-SERIALIZER",
+              "context": "getEventBlob core logic gatekeeper."
+            }
+          },
+          "META": {},
+          "FIND": {
+            "TELEMETRY-BACKOFF": {
+              "id": "OMNI-ID-FIND-TELEMETRY-BACKOFF",
+              "path": "vault/Telemetry/FIND/TELEMETRY-BACKOFF",
+              "alias": "Vv_EXP_BACKOFF_JITTER"
+            },
+            "MSFPC-EXTRACTOR": {
+              "id": "OMNI-ID-FIND-TELEMETRY-MS-FPC",
+              "path": "vault/Telemetry/FIND/MSFPC-EXTRACTOR",
+              "alias": "Kv_MSFPC_EXTRACTOR"
+            },
+            "GENERAL-UTILITY": {
+              "id": "OMNI-ID-FIND-GENERAL-UTIL",
+              "path": "vault/Telemetry/FIND/GENERAL-UTILITY",
+              "note": "Reclassified from Workload:REF to Telemetry:FIND per governance audit."
+            }
+          }
+        }
+      },
+      {
+        "name": "Interface",
+        "description": "UI/UX component anchors, accessibility wrappers, and frontend structural elements.",
+        "artifacts": {
+          "REF": {
+            "HEART-ICON": {
+              "id": "OMNI-ID-FIND-HEART-ICON",
+              "path": "vault/Interface/REF/HEART-ICON",
+              "type": "SVG_React_Component"
+            }
+          },
+          "META": {},
+          "FIND": {}
+        }
+      }
+    ]
+  }
+}
+{
+  "archive": {
+    "filename": "OMNIBUS_MASTER_TOTALITY_v3.0_FINAL.tar.gz",
+    "sha256": "<computed-sha256>",
+    "signed": true,
+    "signature_files": [
+      "OMNIBUS_MASTER_TOTALITY_v3.0_FINAL.tar.gz.sig",
+      "OMNIBUS_MASTER_TOTALITY_v3.0_FINAL.tar.gz.sha256.asc"
+    ],
+    "signing_key": {
+      "fingerprint": "58FF06F2B9D347A293832E75A98C330A3E40F031",
+      "uid": "Enrique B Gonzalez (OMNIBUS signing key) <ps.ebgonzalez@outlook.com>",
+      "pubkey_path": "vault/keys/OMNIBUS_SIGNING_PUBKEY_58FF06F2.asc"
+    },
+    "revocation_certificates": [
+      "vault/keys/revocation-58FF06F2B9D347A293832E75A98C330A3E40F031.rev"
+    ],
+    "sealed_at": "2026-05-27T10:52:02Z"
+  }
+}
+"signing_key": {
+  "fingerprint": "58FF06F2B9D347A293832E75A98C330A3E40F031",
+  "uid": "Enrique B Gonzalez (OMNIBUS signing key) <ps.ebgonzalez@outlook.com>",
+  "pubkey_path": "vault/keys/OMNIBUS_SIGNING_PUBKEY_58FF06F2.asc"
+}
