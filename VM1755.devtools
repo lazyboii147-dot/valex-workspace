@@ -1,0 +1,119 @@
+// === CLEARBOXX BROWSER HARDENING PATCH: SENTRY + SPRIG ===
+(function hardenAnalytics(w, d) {
+    // --- 1. Network‑level kill switch for Sentry + Sprig endpoints ---
+    const BLOCK_HOSTS = [
+        'sentry.io',
+        'o0.ingest.sentry.io',
+        'browser.sentry-cdn.com',
+        'api.sprig.com',
+        'cdn.sprig.com'
+    ];
+
+    function shouldBlock(url) {
+        try {
+            const u = new URL(url, d.location.href);
+            return BLOCK_HOSTS.some(h => u.hostname === h || u.hostname.endsWith('.' + h));
+        } catch {
+            return false;
+        }
+    }
+
+    // Patch fetch
+    if (w.fetch) {
+        const _fetch = w.fetch.bind(w);
+        w.fetch = function patchedFetch(input, init) {
+            const url = typeof input === 'string' ? input : (input && input.url);
+            if (url && shouldBlock(url)) {
+                return Promise.reject(new TypeError('Blocked by CLEARBOXX browser hardening'));
+            }
+            return _fetch(input, init);
+        };
+    }
+
+    // Patch XHR
+    (function patchXHR() {
+        const XHR = w.XMLHttpRequest;
+        if (!XHR) return;
+        const open = XHR.prototype.open;
+        XHR.prototype.open = function(method, url) {
+            this.__cbx_block__ = shouldBlock(url);
+            return open.apply(this, arguments);
+        };
+        const send = XHR.prototype.send;
+        XHR.prototype.send = function(body) {
+            if (this.__cbx_block__) {
+                this.abort();
+                throw new TypeError('Blocked by CLEARBOXX browser hardening');
+            }
+            return send.apply(this, arguments);
+        };
+    })();
+
+    // --- 2. Sentry: stub global API so SDK can load but never send ---
+    function stubSentry(obj) {
+        const noop = function() { return this; };
+        const noopObj = new Proxy(noop, { get: () => noop, apply: () => noop });
+        const methods = [
+            'init','captureException','captureMessage','captureEvent',
+            'configureScope','withScope','setUser','setTag','setContext',
+            'startTransaction','addBreadcrumb'
+        ];
+        methods.forEach(m => { obj[m] = noop; });
+        obj.BrowserClient = noop;
+        obj.makeMain = noop;
+        obj.getCurrentHub = () => ({ getClient: () => null });
+        obj.Hub = noopObj;
+    }
+
+    // Sentry globals commonly used by sentry.javascript.react
+    w.Sentry = w.Sentry || {};
+    stubSentry(w.Sentry);
+
+    // Defensive: if SDK tries to reassign, we re‑stub
+    Object.defineProperty(w, 'Sentry', {
+        configurable: false,
+        enumerable: true,
+        get() { return w.__cbx_sentry__; },
+        set(v) {
+            w.__cbx_sentry__ = v || {};
+            stubSentry(w.__cbx_sentry__);
+        }
+    });
+
+    // --- 3. Sprig: stub SDK and queue so calls are no‑ops ---
+    function stubSprig(name) {
+        const noop = function() {};
+        const fn = function() { return; };
+        fn.q = []; // preserve shape
+        fn.init = noop;
+        fn.identify = noop;
+        fn.track = noop;
+        fn.setUserId = noop;
+        fn.setAttributes = noop;
+        fn.reset = noop;
+        w[name] = fn;
+    }
+
+    // Common Sprig globals
+    const SPRIG_NAMES = ['sprig', 'Sprig'];
+    SPRIG_NAMES.forEach(stubSprig);
+
+    // Defensive: block future assignment to real Sprig
+    SPRIG_NAMES.forEach(name => {
+        Object.defineProperty(w, name, {
+            configurable: false,
+            enumerable: true,
+            get() { return w['__cbx_' + name] || noop; },
+            set(v) {
+                // Replace any real SDK with stub
+                stubSprig(name);
+                w['__cbx_' + name] = w[name];
+            }
+        });
+    });
+
+    // --- 4. Console marker for audit trail ---
+    try {
+        console.info('[CLEARBOXX] Browser hardening patch active: Sentry + Sprig blocked');
+    } catch {}
+})(window, document);

@@ -1,0 +1,85 @@
+// === CLEARBOXX MODULE: Sentry + Sprig Neutralization ===
+(function neutralizeTelemetry(w, d) {
+  "use strict";
+
+  // --- 1. Block network calls to Sentry + Sprig ---
+  const BLOCK = [
+    "sentry.io",
+    "ingest.sentry.io",
+    "o0.ingest.sentry.io",
+    "api.sprig.com",
+    "cdn.sprig.com"
+  ];
+
+  const shouldBlock = url => {
+    try {
+      const u = new URL(url, d.location.href);
+      return BLOCK.some(h => u.hostname === h || u.hostname.endsWith("." + h));
+    } catch {
+      return false;
+    }
+  };
+
+  // Patch fetch
+  if (w.fetch) {
+    const _fetch = w.fetch.bind(w);
+    w.fetch = function(input, init) {
+      const url = typeof input === "string" ? input : input?.url;
+      if (url && shouldBlock(url)) {
+        return Promise.reject(new TypeError("[CLEARBOXX] Blocked Sentry/Sprig fetch"));
+      }
+      return _fetch(input, init);
+    };
+  }
+
+  // Patch XHR
+  const XHR = w.XMLHttpRequest;
+  if (XHR) {
+    const open = XHR.prototype.open;
+    XHR.prototype.open = function(method, url) {
+      this.__cbx_block__ = shouldBlock(url);
+      return open.apply(this, arguments);
+    };
+    const send = XHR.prototype.send;
+    XHR.prototype.send = function(body) {
+      if (this.__cbx_block__) {
+        this.abort();
+        throw new TypeError("[CLEARBOXX] Blocked Sentry/Sprig XHR");
+      }
+      return send.apply(this, arguments);
+    };
+  }
+
+  // --- 2. Stub Sentry global API ---
+  function stubSentry(obj) {
+    const noop = function() { return this; };
+    const hub = { getClient: () => null, getScope: () => ({}), withScope: noop };
+    [
+      "init","captureException","captureMessage","captureEvent",
+      "configureScope","withScope","setUser","setTag","setContext",
+      "addBreadcrumb","startTransaction"
+    ].forEach(m => obj[m] = noop);
+    obj.getCurrentHub = () => hub;
+  }
+
+  w.__cbx_sentry__ = w.__cbx_sentry__ || {};
+  stubSentry(w.__cbx_sentry__);
+  Object.defineProperty(w, "Sentry", {
+    configurable: false,
+    enumerable: true,
+    get() { return w.__cbx_sentry__; },
+    set(v) { w.__cbx_sentry__ = v || {}; stubSentry(w.__cbx_sentry__); }
+  });
+
+  // --- 3. Stub Sprig SDK ---
+  function stubSprig(name) {
+    const fn = function() { console.info("[CLEARBOXX] Blocked Sprig call"); };
+    fn.q = [];
+    fn.init = fn.identify = fn.track = fn.setUserId = fn.setAttributes = fn.reset = fn;
+    w[name] = fn;
+  }
+  ["sprig","Sprig"].forEach(stubSprig);
+
+  // --- 4. Audit marker ---
+  console.info("[CLEARBOXX] Sentry + Sprig neutralization module active");
+})(window, document);
