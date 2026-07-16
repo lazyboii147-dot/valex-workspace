@@ -1,0 +1,1 @@
+/* Placeholder for Babylon.js BackgroundMaterial snippet. */

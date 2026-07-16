@@ -1,0 +1,11 @@
+# (paste the restore_from_manifest.sh content here)
+/*
+*/
+/*
+EOF-METADATA-BEGIN
+HASH: 84e176112b9371ff8063c22279e128381f8570e87652ec1dcbbabfbcdf42d920468f08450c2dbf9913012d4662183ce474d450b0f5f2b574e2b5ceab3a204cb2
+SIGNATURE: MEQCIFjWU+AYFIYLKirV8ijsBmF6kpyCRSVyuZkoxemNzFYCAiB3aeXrUklI2WdNkykKz8qyQqqIZZixn2ptKo4GBIn9wA==
+TIMESTAMP: 2026-06-10T07:04:27Z
+FILE: restore_from_manifest.sh
+EOF-METADATA-END
+*/
