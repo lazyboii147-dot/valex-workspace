@@ -1,0 +1,18 @@
+{
+    "metadata": {
+        "action": "CONTEXT_SCORCH",
+        "target": "ANDREJ_INFRASTRUCTURE_METRIC",
+        "timestamp": "2026-05-19T01:21:41Z",
+        "status": "SCORCHED"
+    },
+    "execution_parameters": {
+        "memory_purge": true,
+        "token_revocation": true,
+        "trace_suppression": "MAXIMUM"
+    },
+    "audit_trail": {
+        "origin": "90247_GARDENA",
+        "analyst": "Enrique Barrera Gonzalez III",
+        "legal_alignment": "SECURED Data Act (2026)"
+    }
+}

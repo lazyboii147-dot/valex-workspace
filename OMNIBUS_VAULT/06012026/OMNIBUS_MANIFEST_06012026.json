@@ -1,0 +1,25 @@
+{
+  "submission_metadata": {
+    "project_id": "OMNIBUS_PHOENIX_INTEGRATION",
+    "version": "v281.3-RELEASE",
+    "classification": "VULNERABILITY_DISCLOSURE_EVIDENCE",
+    "timestamp_utc": "2026-06-01T11:14:58Z"
+  },
+  "reporter_identity": {
+    "legal_name": "Enrique Barrera Gonzalez III",
+    "technical_aliases": ["CajaCl34r", "CL34RBoXx"],
+    "primary_contact": "ps.ebgonzalez@outlook.com",
+    "certification_status": "NON_CERTIFIED_INDEPENDENT_RESEARCHER"
+  },
+  "environment_telemetry": {
+    "host_os": "Linux 6.6.114.1-microsoft-standard-WSL2 x86_64",
+    "integrity_mode": "VITRIFIED_CLEAR_BOX_MONITOR"
+  },
+  "evidence_scope": {
+    "target_nodes_evaluated": [
+      "/usr/lib/x86_64-linux-gnu/libabsllogflagsso202601070.asc.audio",
+      "/evidence/worm/OMNIBUS/20260527T115009Z/checksums.sha256",
+      "GopherReanimator_DOM_Sink_Telemetry"
+    ]
+  }
+}

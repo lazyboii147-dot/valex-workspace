@@ -1,0 +1,49 @@
+{
+    "metadata": {
+        "generated_at": "2026-05-19T01:33:52Z",
+        "compiler_version": "v281.4_G_HOST_CONSOLIDATED",
+        "classification": "VULNERABILITY_RECLAIM_MANIFEST"
+    },
+    "merged_targets": {
+        "google_hosts_count": 3,
+        "identity_tracking": "ENFORCED"
+    },
+    "vulnerabilities": [
+        {
+            "id": "OMNIBUS-GHOST-001",
+            "cwe": "CWE-942",
+            "target": "signaler-pa.clients6.google.com",
+            "title": "Conflicting CORS Preflight Whitelisting Headers",
+            "cvss_v31": {
+                "score": 5.3,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+            },
+            "mechanism": "Asynchronous multi-watch background communication channels experience transport terminations (NS_BINDING_ABORTED). The target endpoint drops validation handshakes during cross-origin preflight requests because incoming HTTP OPTIONS tracking headers are missing from the server's Access-Control-Allow-Headers manifest.",
+            "poc_verification": "fetch('https://signaler-pa.clients6.google.com/punctual/multi-watch/channel?VER=8', { method: 'OPTIONS', headers: { 'Origin': 'https://null.zone', 'Access-Control-Request-Method': 'POST', 'Access-Control-Request-Headers': 'cache-control' } }).then(r => console.log('[G-Host CORS] Status:', r.status));"
+        },
+        {
+            "id": "OMNIBUS-GHOST-002",
+            "cwe": "CWE-209",
+            "target": "gemini.google.com / _/BardChatUi/jserror",
+            "title": "Information Exposure Through Client-Side Stack Trace Dumps",
+            "cvss_v31": {
+                "score": 5.3,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+            },
+            "mechanism": "The user interface layout surfaces internal framework compilation pathways, active bundle modules (exm), and unmasked parsing errors through the explicit /jserror logging endpoint. When front-end parsing exceptions trigger, internal architecture telemetry leaks directly into outbound parameters.",
+            "poc_verification": "curl -i -X POST 'https://gemini.google.com/_/BardChatUi/jserror?script=https://gemini.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en.wyIz3TSZwM8.2018.O' --data-urlencode 'error=ValidationFailure'"
+        },
+        {
+            "id": "OMNIBUS-GHOST-003",
+            "cwe": "CWE-201",
+            "target": "www.google-analytics.com / g/collect",
+            "title": "Granular Telemetry Exfiltration via Analytics Tag Query Parameters",
+            "cvss_v31": {
+                "score": 4.3,
+                "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N"
+            },
+            "mechanism": "The gtag.js ingestion substrate maps browser performance profiles, layout configurations, and localized session hashes (sid) into expansive plain-text parameters. This data array leaks natively across origins within cleartext cross-site GET and XHR POST tracking operations.",
+            "poc_verification": "curl -i -X POST 'https://www.google-analytics.com/g/collect?v=2&tid=G-WC57KJ50ZZ&_p=1778126133096' --data 'en=page_view'"
+        }
+    ]
+}

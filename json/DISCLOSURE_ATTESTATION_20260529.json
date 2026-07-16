@@ -1,0 +1,19 @@
+{"attestation_timestamp": "Sat May 30 05:00:42 UTC 2026", "results": [
+{"file": "./reports/SECUREdata_DISCLOSURE_v195.txt", "signature": "./reports/SECUREdata_DISCLOSURE_v195.txt.asc", "status": "INVALID_SIGNATURE"},
+{"file": "./reports/enrique_pubkey_85C40819", "signature": "./reports/enrique_pubkey_85C40819.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./reports/SUBMISSION_RECEIPT_90247.txt", "signature": "./reports/SUBMISSION_RECEIPT_90247.txt.asc", "status": "INVALID_SIGNATURE"},
+{"file": "./reports/FAILSAFE_MANIFEST.sha256", "signature": "./reports/FAILSAFE_MANIFEST.sha256.asc", "status": "VALID"},
+{"file": "./reports/DISCLOSURE_PACKET_90247-VNDR-SINGULARITY-20260511/SECUREdata_DISCLOSURE_v195.txt", "signature": "./reports/DISCLOSURE_PACKET_90247-VNDR-SINGULARITY-20260511/SECUREdata_DISCLOSURE_v195.txt.asc", "status": "INVALID_SIGNATURE"},
+{"file": "./reports/DISCLOSURE_PACKET_90247-VNDR-SINGULARITY-20260511/secure_remedy_v195.js", "signature": "./reports/DISCLOSURE_PACKET_90247-VNDR-SINGULARITY-20260511/secure_remedy_v195.js.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./reports/DISCLOSURE_PACKET_90247-VNDR-SINGULARITY-20260511/remediation_payload.js", "signature": "./reports/DISCLOSURE_PACKET_90247-VNDR-SINGULARITY-20260511/remediation_payload.js.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./reports/DISCLOSURE_PACKET_90247-VNDR-SINGULARITY-20260511/secure_remedy_v195_final.js", "signature": "./reports/DISCLOSURE_PACKET_90247-VNDR-SINGULARITY-20260511/secure_remedy_v195_final.js.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./reports/OMNIBUS_APEX_DISCLOSURE", "signature": "./reports/OMNIBUS_APEX_DISCLOSURE.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./reports/FORENSIC_MANIFEST.txt", "signature": "./reports/FORENSIC_MANIFEST.txt.asc", "status": "INVALID_SIGNATURE"},
+{"file": "./reports/MANIFEST_sha256.txt", "signature": "./reports/MANIFEST_sha256.txt.asc", "status": "VALID"},
+{"file": "./reports/secure_remedy_v195.js", "signature": "./reports/secure_remedy_v195.js.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./reports/FINAL_DISCLOSURE_V281.3.txt", "signature": "./reports/FINAL_DISCLOSURE_V281.3.txt.asc", "status": "INVALID_SIGNATURE"},
+{"file": "./reports/remediation_payload.js", "signature": "./reports/remediation_payload.js.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./reports/secure_remedy_v195_final.js", "signature": "./reports/secure_remedy_v195_final.js.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./90247_OMNIBUS_STAGING/90247_OMNIBUS_FINAL_SETTLEMENT", "signature": "./90247_OMNIBUS_STAGING/90247_OMNIBUS_FINAL_SETTLEMENT.asc", "status": "MISSING_TARGET_FILE"},
+{"file": "./secret_key", "signature": "./secret_key.asc", "status": "MISSING_TARGET_FILE"}
+]}

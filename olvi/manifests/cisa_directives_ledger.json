@@ -1,0 +1,19 @@
+{
+  "repository": {
+    "name": "XIPE-TOTECH",
+    "meta": {
+      "analyst": "Enrique B. Gonzalez III",
+      "status": "HARDENED",
+      "compliance": "NIST SP 800-216"
+    },
+    "directives_manifest": {
+      "base_path": "/directives/",
+      "active_emergency_directives": [
+        {"id": "ED-22-02", "route": "/ed/22-02", "vulnerability": "Apache Log4j"}
+      ],
+      "active_binding_operational_directives": [
+        {"id": "BOD-22-01", "route": "/bod/22-01/", "scope": "KEV Catalog"}
+      ]
+    }
+  }
+}

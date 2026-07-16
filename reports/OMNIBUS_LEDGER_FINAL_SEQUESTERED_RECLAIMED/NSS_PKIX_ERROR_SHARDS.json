@@ -1,0 +1,11 @@
+{
+  "node": "90247_GARDENA",
+  "audit_valuation": ",254,302,476.00",
+  "frameworks": ["SSAE 3402", "ISACA", "LOGSEF"],
+  "captured_error_count": 218,
+  "critical_markers": [
+    "ssl-error-rx-malformed-handshake",
+    "ssl-error-unsupported-version",
+    "sec-error-reused-issuer-and-serial"
+  ]
+}
