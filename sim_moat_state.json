@@ -1,7 +1,7 @@
-{
-  "threat_level": "simulated",
-  "water_clarity": "low",
-  "piranha_population": 42,
-  "moat_depth": 12,
-  "last_update": "2026-06-20T10:15:34.1081987-07:00"
+﻿{
+    "threat_level":  "simulated",
+    "water_clarity":  "low",
+    "piranha_population":  42,
+    "moat_depth":  12,
+    "last_update":  "2026-06-20T10:15:34.1081987-07:00"
 }

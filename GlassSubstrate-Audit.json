@@ -1,37 +1,37 @@
-{
-  "SessionID": "FIFA_World_Cup_Audit_2026",
-  "Component": "GlassSubstrate",
-  "Status": "GOVERNED_POC",
-  "Timestamp": "2026-06-20T01:53:14.733-07:00",
-  "Plan": {
-    "Capability": "GlassSubstrate_KillSwitch",
-    "Mode": "PLAN_ONLY",
-    "Timestamp": "2026-06-20T01:53:14.733-07:00",
-    "Telemetry": {
-      "Targets": [
-        "siq",
-        "speedInsightsBeforeSend"
-      ],
-      "Strategy": "override-to-noop"
-    },
-    "Analytics": {
-      "Hooks": [
-        "ga",
-        "ga4",
-        "appInsights",
-        "vortex",
-        "clarity"
-      ],
-      "Strategy": "noop"
-    },
-    "DomRemoval": {
-      "Selectors": [
-        "vercel-speed-insights",
-        "astro-island",
-        "script[src*='vercel']"
-      ]
-    },
-    "Notes": "This artifact documents the capability only. Execution requires explicit operator toggle."
-  },
-  "IntegrityHash": "3E51C70A27E26498AE547FB7E8414637577E449D788B39C804EE4B52C8788F15"
+﻿{
+    "SessionID":  "FIFA_World_Cup_Audit_2026",
+    "Component":  "GlassSubstrate",
+    "Status":  "GOVERNED_POC",
+    "Timestamp":  "2026-06-20T01:53:14.733-07:00",
+    "Plan":  {
+                 "Capability":  "GlassSubstrate_KillSwitch",
+                 "Mode":  "PLAN_ONLY",
+                 "Timestamp":  "2026-06-20T01:53:14.733-07:00",
+                 "Telemetry":  {
+                                   "Targets":  [
+                                                   "siq",
+                                                   "speedInsightsBeforeSend"
+                                               ],
+                                   "Strategy":  "override-to-noop"
+                               },
+                 "Analytics":  {
+                                   "Hooks":  [
+                                                 "ga",
+                                                 "ga4",
+                                                 "appInsights",
+                                                 "vortex",
+                                                 "clarity"
+                                             ],
+                                   "Strategy":  "noop"
+                               },
+                 "DomRemoval":  {
+                                    "Selectors":  [
+                                                      "vercel-speed-insights",
+                                                      "astro-island",
+                                                      "script[src*=\u0027vercel\u0027]"
+                                                  ]
+                                },
+                 "Notes":  "This artifact documents the capability only. Execution requires explicit operator toggle."
+             },
+    "IntegrityHash":  "3E51C70A27E26498AE547FB7E8414637577E449D788B39C804EE4B52C8788F15"
 }

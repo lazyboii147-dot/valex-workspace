@@ -1,0 +1,24 @@
+﻿{
+    "external_surfaces":  {
+                              "Google_Gemini":  {
+                                                    "signal_protocols":  [
+                                                                             "punctual/multi-watch",
+                                                                             "AsyncDataService"
+                                                                         ],
+                                                    "telemetry_channels":  [
+                                                                               "play.google.com/log",
+                                                                               "google.com/ccm/collect"
+                                                                           ],
+                                                    "core_endpoints":  [
+                                                                           "gemini.google.com",
+                                                                           "clients6.google.com",
+                                                                           "gstatic.com"
+                                                                       ],
+                                                    "asset_domains":  [
+                                                                          "fonts.gstatic.com",
+                                                                          "www.gstatic.com"
+                                                                      ],
+                                                    "observed_behavior":  "High-frequency RPC batching, persistent signaling, continuous telemetry beaconing"
+                                                }
+                          }
+}

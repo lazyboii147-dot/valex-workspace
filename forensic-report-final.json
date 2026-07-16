@@ -1,32 +1,32 @@
-{
-  "SessionID": "FIFA_World_Cup_Audit_2026",
-  "Status": "GOVERNED_STABLE",
-  "Timestamp": "2026-06-20T01:46:24.733-07:00",
-  "Marker": {
-    "ID": "OMNIBUS_ALARM_NODE",
-    "Mode": "GOVERNED",
-    "Transport": "sessionStorage",
-    "Active": true
-  },
-  "Components": [
-    {
-      "Name": "AudioArbiter",
-      "Status": "LEASED_STABLE"
-    },
-    {
-      "Name": "TelemetryHijack",
-      "Status": "READ_ONLY_PROXY"
-    },
-    {
-      "Name": "WonkEngine",
-      "Status": "ARBITER_COMPLIANT"
-    }
-  ],
-  "Environment": {
-    "Browser": "Chrome/Chromium",
-    "OS": "Microsoft Windows 11 Home",
-    "NodeCount": 253,
-    "TimestampUTC": "2026-06-20T08:46:25.2513273Z"
-  },
-  "IntegrityHash": "DD3E81EAAFF06CB9DC79204F2D0EF03135CFE5EA852E0AE875378B50B7E4C060"
+﻿{
+    "SessionID":  "FIFA_World_Cup_Audit_2026",
+    "Status":  "GOVERNED_STABLE",
+    "Timestamp":  "2026-06-20T01:46:24.733-07:00",
+    "Marker":  {
+                   "ID":  "OMNIBUS_ALARM_NODE",
+                   "Mode":  "GOVERNED",
+                   "Transport":  "sessionStorage",
+                   "Active":  true
+               },
+    "Components":  [
+                       {
+                           "Name":  "AudioArbiter",
+                           "Status":  "LEASED_STABLE"
+                       },
+                       {
+                           "Name":  "TelemetryHijack",
+                           "Status":  "READ_ONLY_PROXY"
+                       },
+                       {
+                           "Name":  "WonkEngine",
+                           "Status":  "ARBITER_COMPLIANT"
+                       }
+                   ],
+    "Environment":  {
+                        "Browser":  "Chrome/Chromium",
+                        "OS":  "Microsoft Windows 11 Home",
+                        "NodeCount":  253,
+                        "TimestampUTC":  "2026-06-20T08:46:25.2513273Z"
+                    },
+    "IntegrityHash":  "DD3E81EAAFF06CB9DC79204F2D0EF03135CFE5EA852E0AE875378B50B7E4C060"
 }
