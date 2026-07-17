@@ -106,13 +106,3 @@ log "Next: inspect *_analysis files for candidate IPs/MACs and correlate with DC
 log "To clear cached creds or delete WLAN profiles, use clear_windows_cached_creds <vm> <target> and delete_wlan_profile <vm> <profile> functions."
 
 # End
-/*
-*/
-/*
-EOF-METADATA-BEGIN
-HASH: 1f7fcec95cb22a89026b91b98c7df5a6b62863046470fbb5dd9ca6c2f33b38325302dfc0165f5e429714a675b94b7abf7503bf2c7d307c6a93f90727d2199324
-SIGNATURE: MEUCIG4uyxE2qJmrSwQMSi3plnHEcm87auPnjuZoXcEtVdTzAiEA6zWY/k6lh6+6ViNunwAXY9Zn/NBOXNYWlG0tRC5QwKs=
-TIMESTAMP: 2026-06-10T07:04:26Z
-FILE: radius-lockout-triage.sh
-EOF-METADATA-END
-*/
