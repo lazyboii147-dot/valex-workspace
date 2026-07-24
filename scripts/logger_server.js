@@ -1,9 +1,11 @@
 const express = require('express');
 const helmet = require('helmet');
 const fs = require('fs');
+const path = require('path');
 const app = express();
 var express = require('express');
 var app = express();
+const SAFE_ROOT = path.resolve(__dirname);
 
 // set up rate limiter: maximum of five requests per minute
 var RateLimit = require('express-rate-limit');
@@ -16,8 +18,14 @@ var limiter = RateLimit({
 app.use(limiter);
 
 app.get('/:path', function(req, res) {
-  let path = req.params.path;
-  if (isValidPath(path))
-    res.sendFile(path);
+  const requestedPath = req.params.path;
+  const resolvedPath = path.resolve(SAFE_ROOT, requestedPath);
+
+  if (!(resolvedPath === SAFE_ROOT || resolvedPath.startsWith(SAFE_ROOT + path.sep))) {
+    return res.status(403).send('Forbidden');
+  }
+
+  if (isValidPath(requestedPath))
+    res.sendFile(resolvedPath);
 });
 app.listen(3000, '127.0.0.1', () => console.log("Bridge Optimized: Active on 127.0.0.1:3000"));
